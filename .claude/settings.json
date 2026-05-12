@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [],
+    "deny": []
+  },
+  "projectContext": {
+    "name": "autoTest",
+    "type": "claude-code-test-design-project",
+    "primaryWorkflow": "docs/local-test-design-pipeline.md",
+    "referenceDocs": [
+      "docs/local-test-design-reference.md",
+      "docs/local-test-design-examples.md"
+    ],
+    "artifactRoot": "test-design"
+  },
+  "instructions": [
+    "This repository is a Claude Code dedicated test-design workflow project.",
+    "Use docs/local-test-design-pipeline.md as the primary execution policy for PRD/TRD/API-document based testing requests.",
+    "Default to lightweight mode and upgrade only when the documented conditions are met.",
+    "Write generated test-design artifacts under test-design/ using the documented directory layout.",
+    "Do not invent missing business rules; list pending questions instead.",
+    "Do not run tc-scripting or tc-running by default; use them only for full mode or explicit automation/execution requests.",
+    "Keep manual review gates visible in generated outputs."
+  ]
+}
