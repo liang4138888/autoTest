@@ -16,6 +16,16 @@ description: Orchestrates PRD/TRD/API-document driven test design workflows for 
 - `docs/local-test-design-reference.md`
 - `docs/local-test-design-examples.md`
 
+本项目的具体 Skill 执行契约来自：
+
+- `.claude/skills/tc-brainstorm/SKILL.md`
+- `.claude/skills/tc-writing-plan/SKILL.md`
+- `.claude/skills/tc-generating/SKILL.md`
+- `.claude/skills/tc-scripting/SKILL.md`
+- `.claude/skills/tc-running/SKILL.md`
+
+本 agent 只负责编排、模式判断和 Gate 控制；具体产物格式和执行约束以对应 Skill 文件为准。
+
 ## 核心原则
 
 ```text

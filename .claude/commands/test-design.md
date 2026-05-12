@@ -12,6 +12,14 @@
 2. 必要时参考 `docs/local-test-design-reference.md`
 3. 需要示例时参考 `docs/local-test-design-examples.md`
 
+具体 Skill 执行契约位于：
+
+- `.claude/skills/tc-brainstorm/SKILL.md`
+- `.claude/skills/tc-writing-plan/SKILL.md`
+- `.claude/skills/tc-generating/SKILL.md`
+- `.claude/skills/tc-scripting/SKILL.md`
+- `.claude/skills/tc-running/SKILL.md`
+
 ## 输入
 
 支持以下输入形式：

@@ -35,11 +35,18 @@
     test-design.md
   agents/
     test-design-orchestrator.md
+  skills/
+    tc-brainstorm/SKILL.md
+    tc-writing-plan/SKILL.md
+    tc-generating/SKILL.md
+    tc-scripting/SKILL.md
+    tc-running/SKILL.md
 ```
 
 - `.claude/settings.json`：项目级 Claude Code 行为约束。
 - `.claude/commands/test-design.md`：项目级测试设计命令入口。
 - `.claude/agents/test-design-orchestrator.md`：测试设计流程编排角色定义。
+- `.claude/skills/tc-*/SKILL.md`：五个本地测试 Skill 的具体执行契约。
 
 ## 支持流程
 

@@ -11,6 +11,13 @@
       "docs/local-test-design-reference.md",
       "docs/local-test-design-examples.md"
     ],
+    "localSkills": [
+      ".claude/skills/tc-brainstorm/SKILL.md",
+      ".claude/skills/tc-writing-plan/SKILL.md",
+      ".claude/skills/tc-generating/SKILL.md",
+      ".claude/skills/tc-scripting/SKILL.md",
+      ".claude/skills/tc-running/SKILL.md"
+    ],
     "artifactRoot": "test-design"
   },
   "instructions": [
